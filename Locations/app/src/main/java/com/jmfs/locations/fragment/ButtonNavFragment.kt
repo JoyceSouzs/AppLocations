@@ -9,6 +9,7 @@ import androidx.fragment.app.Fragment
 import androidx.navigation.Navigation.findNavController
 import androidx.navigation.ui.setupWithNavController
 import com.jmfs.locations.R
+import com.jmfs.locations.util.MyHandlers
 import com.jmfs.locations.viewModel.PlaceViewModel
 import kotlinx.android.synthetic.main.fragment_button_nav.*
 import kotlinx.android.synthetic.main.layout_toolbar.view.*
@@ -50,6 +51,9 @@ class ButtonNavFragment : Fragment() {
         return when (item.itemId) {
             R.id.filter -> {
                 itemsAlert()
+                true
+            }
+            android.R.id.home -> { MyHandlers().goToMainFragment(requireActivity())
                 true
             }
             else -> super.onOptionsItemSelected(item)

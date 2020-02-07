@@ -9,7 +9,7 @@ object Constant {
     const val ALL = "all"
     const val RESTAURANT = "restaurant"
     const val AIRPORT = "airport"
-    const val NIGHTCLUB = "night club"
+    const val NIGHTCLUB = "night_club"
     const val SUPERMARKET = "supermarket"
-    const val SHOPPING = "shopping Centers"
+    const val SHOPPING = "shopping_mall"
 }

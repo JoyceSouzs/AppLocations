@@ -31,9 +31,6 @@ class ProfileFragment : Fragment() {
                    var userProfile = UserProfile(profile.id,profile.name)
                         binding.userProfile = userProfile
                         binding.urlImage = userProfile.id
-
-            //binding.urlImage = profile.id.toString()
-            //binding.textName.text = profile.name.toString()
         })
 
         return binding.root

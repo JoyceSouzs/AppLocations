@@ -19,6 +19,12 @@
         android:id="@+id/buttonNavFragment"
         android:name="com.jmfs.locations.fragment.ButtonNavFragment"
         android:label="fragment_button_nav"
-        tools:layout="@layout/fragment_button_nav" />
+        tools:layout="@layout/fragment_button_nav">
+    <action
+        android:id="@+id/toMainFragment"
+        app:destination="@id/mainFragment"
+        app:popUpTo="@+id/mainFragment"
+        app:popUpToInclusive="true"/>
+    </fragment>
 
 </navigation>
