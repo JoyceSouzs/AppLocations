@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">Locations</string>
+    <string name="facebook_app_id">460533304854455</string>
+    <string name="fb_login_protocol_scheme">fb460533304854455</string>
+    <string name="title_radar">Radar</string>
+    <string name="title_list">Lista</string>
+    <string name="title_places">Locais</string>
+    <string name="title_profile">Perfil</string>
+    <string name="menu_restaurant">Restaurant</string>
+    <string name="menu_airport">Airport</string>
+    <string name="category">Categoria</string>
+
+    <string-array name="categories">
+        <item>Todos</item>
+        <item>Restaurantes</item>
+        <item>Aeroporto</item>
+        <item>Baladas</item>
+        <item>Supermercado</item>
+        <item>Shopping Centers</item>
+    </string-array>
+</resources>
