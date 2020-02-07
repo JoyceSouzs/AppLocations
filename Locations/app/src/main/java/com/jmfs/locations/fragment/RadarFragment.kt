@@ -7,7 +7,6 @@ import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
-import android.widget.TextView
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.Observer
 import com.google.android.gms.location.*
@@ -66,7 +65,8 @@ class RadarFragment : Fragment() {
                 Log.d("test", "onLocationResult")
                 for (location in locationResult.locations){
                     Log.d("test", "location: ${location.latitude}/${location.longitude}")
-                    binding.textLocations.text = "${location.latitude}/${location.longitude}"
+                    val locations = "${location.latitude}/${location.longitude}"
+                    binding.textLocations.text = locations
                 }
             }
         }

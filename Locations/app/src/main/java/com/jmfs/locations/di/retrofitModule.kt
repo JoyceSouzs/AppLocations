@@ -1,7 +1,6 @@
 package com.jmfs.locations.di
 
 import com.jmfs.locations.api.PlacesServices
-import com.jmfs.locations.remote.ProfileServices
 import com.jmfs.locations.util.Constant
 import org.koin.dsl.module
 import retrofit2.Retrofit

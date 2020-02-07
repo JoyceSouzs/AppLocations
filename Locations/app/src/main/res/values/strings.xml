@@ -4,11 +4,10 @@
     <string name="fb_login_protocol_scheme">fb460533304854455</string>
     <string name="title_radar">Radar</string>
     <string name="title_list">Lista</string>
-    <string name="title_places">Locais</string>
     <string name="title_profile">Perfil</string>
-    <string name="menu_restaurant">Restaurant</string>
-    <string name="menu_airport">Airport</string>
     <string name="category">Categoria</string>
+    <string name="image_profile">Imagem do Perfil</string>
+    <string name="filter">Filtro</string>
 
     <string-array name="categories">
         <item>Todos</item>

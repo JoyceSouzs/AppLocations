@@ -15,12 +15,9 @@ import com.facebook.FacebookCallback
 import com.facebook.FacebookException
 import com.facebook.login.LoginResult
 import com.jmfs.locations.R
-import com.jmfs.locations.entity.UserProfile
 import com.jmfs.locations.util.MyHandlers
-import com.jmfs.locations.viewModel.PlaceViewModel
 import com.jmfs.locations.viewModel.ProfileViewModel
 import kotlinx.android.synthetic.main.fragment_main.view.*
-import org.koin.android.viewmodel.ext.android.getViewModel
 import org.koin.android.viewmodel.ext.android.viewModel
 
 /**

@@ -28,7 +28,7 @@ class ProfileFragment : Fragment() {
         val viewModel: ProfileViewModel = getViewModel()
         viewModel.profile.observe(this, Observer {
                 profile ->
-                   var userProfile = UserProfile(profile.id,profile.name)
+                   val userProfile = UserProfile(profile.id,profile.name)
                         binding.userProfile = userProfile
                         binding.urlImage = userProfile.id
         })

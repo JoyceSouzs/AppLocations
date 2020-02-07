@@ -5,7 +5,6 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.jmfs.locations.databinding.LayoutPlacesBinding
 import com.jmfs.locations.entity.Place
-import com.jmfs.locations.entity.ResultPlace
 
 class PlacesAdapter(private var listPlaces: List<Place>)
 : RecyclerView.Adapter<PlacesAdapter.MyViewHolder>() {

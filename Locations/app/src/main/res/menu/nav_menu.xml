@@ -4,8 +4,8 @@
 
     <item
         android:id="@+id/filter"
-        android:title="Filtro"
-        android:icon="@drawable/ic_action_filter"
+        android:title="@string/filter"
+        android:icon="@drawable/ic_filter_list_black_24dp"
         app:showAsAction="always"/>
 
 </menu>
